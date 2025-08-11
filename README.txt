@@ -1,2 +1,3 @@
 Supapit Poolpukdee
-https://github.com/supapitpoolpukdee/MY_CV
+Github : https://github.com/supapitpoolpukdee/MY_CV
+Website : https://supapitpoolpukdee.github.io/MY_CV/
