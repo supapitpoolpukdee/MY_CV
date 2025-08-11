@@ -52,3 +52,9 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+function Contact(){
+    console.log("Contact sending to alert")
+    alert('Gmail : supapit_poolpukdee@cmu.ac.th')
+};

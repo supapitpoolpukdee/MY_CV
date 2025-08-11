@@ -34,8 +34,8 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1abc9c;
-  --bs-secondary: #2c3e50;
+  --bs-primary: #4fbdc7;
+  --bs-secondary: #0fa74e;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -61,8 +61,8 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-color: #285481;
+  --bs-body-bg: #eaf3fe;
   --bs-border-width: 0.125rem;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #1abc9c;
-  --bs-link-hover-color: #15967d;
+  --bs-link-color: #E6F5F0;
+  --bs-link-hover-color: #E6F5F0;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -610,6 +610,10 @@ progress {
   border-radius: 0.5rem;
   max-width: 100%;
   height: auto;
+}
+
+.img-roundborder{
+  border-radius: 3rem;
 }
 
 .figure {
@@ -11043,4 +11047,55 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.portfolio-img {
+    width: 150px;  /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: contain; /* Ensures the entire image is visible within the bounds */
+    display: block; /* Essential for mx-auto to work if used, though text-center on parent col handles it too */
+    margin: 0 auto 10px auto; /* Centers the image and adds space below it */
+}
+
+.bg-primary-theme{
+  background-color: #F6B8DF !important; /* A common pastel pink HEX code */
+}
+
+.bg-secondary-theme{
+  background-color: #E6F5F0 !important;
+}
+
+.bg-navbar{
+  background-color: #E591BD !important;
+}
+
+.text-secondary-new{
+  color: #E591BD;
+}
+
+.divider-custom-line-pink {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #E591BD;
+  border-radius: 1rem;
+  border-color: #2c3e50;
+}
+
+.divider-custom-icon-pink {
+  color: #E591BD;
+  font-size: 2rem;
+}
+
+.navbar-toggler.bg-primary {
+    background-color: #F8C8DC !important; /* Example: #FF69B4 for hot pink */
+}
+
+.nav-link:hover {
+    background-color: #E6F5F0;
+}
+
+.nav-link.active{
+  color: #1abc9c !important;
+  background-color: #E6F5F0 !important;
 }
